@@ -1,0 +1,13 @@
+<div class="container">
+  <table class="table table-bordered table-sm">
+    <tr class="thead-dark">
+      <th>Località</th>
+      <th>Total Affected</th>
+    </tr>
+    <tr *ngFor="let province of provinces">
+      <td>{{ province.location }}</td>
+      <td>{{ province.total_affected }}</td>
+      <td>{{ province.type }}</td>
+    </tr>
+  </table>
+</div>
